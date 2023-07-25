@@ -253,26 +253,56 @@ header{
     margin-top: 25px;
     margin-bottom: 25px;
     
+    column-gap: 15px;
+
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 
     grid-template-areas: 
-    'imagen_historia imagen_historia texto_historia texto_historia';
+    'imagen_historia texto_historia';
+    
+}
+
+.nosotros .imagen_historia img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros .imagen_historia {
+    grid-area: 'imagen_historia';
+}
+
+.nosotros .texto_historia{
+    grid-area: 'texto_historia';
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .texto_historia{
     text-align: center;
     margin-right: 20px;
+    
+}
+
+.texto_historia p{
+    font-size: 100%;
+}
+
+.texto_historia b{
+    font-size: 20px;
 }
 
 .texto_historia img{
-    width: 30vh;
+    width: 30%;
     padding: 15px;
 }
 
 .texto_historia .foot{
-    width: 15vh;
+    width: 15%;
 }
 
 /* .nosotros .nosotros_pag{
