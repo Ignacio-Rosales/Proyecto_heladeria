@@ -25,7 +25,6 @@ body{
 header{
     
     display: flex;
-	position: sticky;
     justify-content: space-between;
     align-items: center;
     height: 85px;
@@ -48,10 +47,12 @@ header{
 }
 
 .header .nav-links{
+    margin-bottom: 0;
     list-style: none;
 }
 
 .header .nav-links li{
+    
     display: inline-block;
     padding: 0 20px;
     transition: all 0.3s;
@@ -81,17 +82,16 @@ header{
 
 .inicio .inicio_pag img{
     object-fit: cover;
-    width: 100%;
-   height: 100%;
+   
+   
 }
-
 
 
 .inicio .inicio_pag .sabores {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px ;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .inicio .inicio_pag .cucurucho {
@@ -124,13 +124,10 @@ header{
 }
 
 .inicio .listas .col {
-
     width: 100%;
     height: 350px;
     margin-top:80px;
     margin-left: 50px;
-    
-    
 }
 
 .inicio .listas .col li{
@@ -138,18 +135,19 @@ header{
 }
 
 .inicio .listas .col h6{
-    font-size: 35px;
+    font-size: 30px;
     line-height: 35px;
     font-weight: 500;
     text-align: left;
     margin: 15px;
 }
+
 .inicio .listas .col ul li {
     width: 100%;
     text-align: left;
     display: inline-block;
     font-size: 15px;
-    line-height: 17px;
+    line-height: 15px;
 }
 
 
@@ -358,7 +356,7 @@ header{
     
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
     
     header{
         justify-content: space-between;
