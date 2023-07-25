@@ -10,7 +10,7 @@
 }
 
 html{
-    height: 100%;
+    width:100%;
 }
 
 
@@ -410,6 +410,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
         
     }
 
@@ -482,5 +483,11 @@ header{
        position: absolute;
        bottom: 0;
     }
+
+    
+
+}
+
+@media (max-width: 720px) {
 
 }
