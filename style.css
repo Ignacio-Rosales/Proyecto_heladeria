@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+html{
+    height: 100%;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    min-height: 100%;
+}
+
+
+header{
+    
+    display: flex;
+	position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    margin: 10px;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.3s;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.header .nav-links a{
+    font-size: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: rgb(212, 16, 107);
+}
+
+
+.inicio{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.inicio .inicio_pag img{
+    object-fit: cover;
+    width: 100%;
+   height: 100%;
+}
+
+
+
+.inicio .inicio_pag .sabores {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px ;
+    font-size: 3rem;
+}
+
+.inicio .inicio_pag .cucurucho {
+    position: absolute;
+    top: 105px;
+    left:-20px;
+    width: 20%;
+    max-height: 480px;
+    max-width: 320px;
+    
+}
+
+.inicio .inicio_pag .helado_frutilla {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 20%;
+    max-height: 350px;
+}
+
+.inicio .listas{
+    margin: 80px;
+    display: grid;
+    text-align: center;
+    position: relative;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.inicio .listas .col {
+
+    width: 100%;
+    height: 350px;
+    margin-top:80px;
+    margin-left: 50px;
+    
+    
+}
+
+.inicio .listas .col li{
+    text-decoration: none;
+}
+
+.inicio .listas .col h6{
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 500;
+    text-align: left;
+    margin: 15px;
+}
+.inicio .listas .col ul li {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+
+.contacto .contacto_pag h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 3.0rem;
+}
+
+.contacto .contacto_pag .contacto_input {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto .contacto_pag .contacto_input select{
+    border: 2px solid black;
+    padding-right:150px;
+    padding-left: 100px;
+    margin: 10px auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contacto .contacto_pag .contacto_input .titulo_label {
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contacto .contacto_pag .contacto_input .titulo_label:hover{
+    font-size: 1.2rem;
+}
+
+.contacto .contacto_pag .contacto_input label{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 50px;
+    
+    
+}
+
+.contacto .contacto_pag .contacto_input label input{
+    border: 2px solid black;
+    padding-right:50px;
+    padding-left: 50px;
+    
+}
+
+
+
+.contacto .contacto_pag .contacto_input label textarea{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.contacto .contacto_pag .botones{
+    padding: 10px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto .contacto_pag .contacto_input .btn_submit{
+    padding: 5px 7px;
+    margin-right: 7px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contacto .contacto_pag .contacto_input .btn_submit:hover{
+    background-color: rgb(212, 16, 107);
+    font-size: 1.2rem;
+}
+
+.contacto .contacto_pag .contacto_input .btn_reset{
+    padding: 5px 7px;
+    margin-right: 7px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contacto .contacto_pag .contacto_input .btn_reset:hover{
+    background-color: rgb(212, 16, 107);
+    font-size: 1.2rem;
+}
+
+.nosotros{
+    display: grid;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    grid-template-areas: 
+    'imagen_historia imagen_historia texto_historia texto_historia';
+    
+}
+
+.texto_historia{
+    text-align: center;
+    margin-right: 20px;
+}
+
+.texto_historia img{
+    width: 30vh;
+    padding: 15px;
+}
+
+.texto_historia .foot{
+    width: 15vh;
+}
+
+/* .nosotros .nosotros_pag{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.nosotros .nosotros_pag .contenido_historia {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nosotros .nosotros_pag .contenido_historia .head{
+    width: 20%;
+    margin-bottom: 1.5vw;
+    
+}
+
+.nosotros .nosotros_pag .contenido_historia .foot {
+    margin-top: 3vw ;
+    margin-bottom: 50px;
+    
+}
+
+.nosotros .nosotros_pag .contenido_historia p b{
+    color: rgb(212, 16, 107) ;
+}
+
+.nosotros .nosotros_pag .contenido_historia p{
+    padding: 0 80px;
+    
+}
+
+.nosotros .nosotros_pag .contenido_img {
+    width: 50%;
+}
+
+.nosotros .nosotros_pag .contenido_img img{
+    width: 100%;
+} */
+
+.promociones .promociones_pag h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.footer1 {
+    background-color: rgb(212, 16, 107);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer{
+    background-color: rgb(212, 16, 107);
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    
+    
+}
+
+@media (max-width: 1200px) {
+    
+    header{
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+        margin: 10px;
+        padding: 0;
+    }
+
+    .header .nav-links a{
+        font-size: 17px;
+        
+    }
+
+    .inicio .inicio_pag {
+        width: 100%;
+        height: 100%;
+    }
+
+    .inicio .inicio_pag img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .inicio .inicio_pag .sabores{
+        font-size: 2rem;
+    }
+
+    .inicio .inicio_pag .helado_frutilla {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 20%;
+        max-height: 300px;
+    }
+
+    .inicio .inicio_pag .cucurucho{
+        position: absolute;
+        top: 105px;
+        left:-20px;
+        width: 20%;
+        max-height: 350px;
+        max-width: 280px;
+    }
+
+    .inicio .listas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        
+        
+    }
+
+    .inicio .listas .col{
+
+        height: 100%;
+        padding: 15px;
+        margin: 0 auto;
+        
+    }
+    
+    .inicio .listas .col h6{
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .inicio .listas .col ul li {
+        text-align: center;
+
+    }
+
+    .nosotros{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .texto_historia{
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .nosotros .imagen_historia img{
+        width: 100%;
+        
+    }
+
+    .footer1{
+       position: absolute;
+       bottom: 0;
+    }
+
+}
