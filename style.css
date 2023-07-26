@@ -292,10 +292,89 @@ header{
     display: none;
 }
 
-.promociones .promociones_pag h1{
-    font-size: 3rem;
+.listado_promociones2{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
     text-align: center;
+    margin-top: 40px;
 }
+
+.listado_promociones2 h2 {
+    color: #d60058;
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.listado_promociones2 ul {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.listado_promociones2 ul li {
+    display: flex;
+    align-items: flex-start;
+    width: 45%;
+    margin: 40px 45px;
+    max-width: 530px;
+}
+
+.listado_promociones2 ul li .foto{
+    width: 50%;
+}
+
+.listado_promociones2 ul li .foto img{
+    width: 100%;
+}
+
+.listado_promociones2 ul li .textos{
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+
+.listado_promociones2 ul li .textos h3{
+    color: #d60058;
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.listado_promociones2 ul li .textos h6 {
+ 
+    color: #d60058;
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.listado_promociones2 ul li .textos .fecha {
+    color: #333;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.listado_promociones2 ul li .textos .desc {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #555;
+}
+
 
 .footer1 {
     background-color: rgb(212, 16, 107);
