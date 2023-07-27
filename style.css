@@ -29,7 +29,11 @@ header{
     align-items: center;
     height: 85px;
     padding: 5px 10%;
-    margin: 10px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+    position: sticky;
+    top: 0;
 }
 
 .header .logo{
@@ -37,8 +41,9 @@ header{
 }
 
 .header .logo img{
-    height: 70px;
+    height: 60px;
     width: auto;
+    margin: 20px;
     transition: all 0.3s;
 }
 
@@ -447,7 +452,6 @@ footer .redes img:hover{
         justify-content: space-between;
         align-items: center;
         height: 85px;
-        margin: 10px;
         padding: 0;
     }
 
@@ -466,7 +470,6 @@ footer .redes img:hover{
         justify-content: center;
         align-items: center;
         width: 100%;
-        
     }
 
     .inicio .inicio_pag .sabores{
@@ -493,7 +496,7 @@ footer .redes img:hover{
     .inicio .listas {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+        grid-template-rows: auto;
         
         
     }
@@ -533,6 +536,22 @@ footer .redes img:hover{
         width: 100%;
         
     }
+
+    footer {
+        display:inline-block !important;
+        width: 100%;
+        
+    }
+
+    footer div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+    }
+
+
 
     .footer1{
        position: absolute;
