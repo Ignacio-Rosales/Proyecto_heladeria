@@ -606,6 +606,36 @@ footer .redes img:hover{
     }
     
 
+    .contacto .contacto_pag .contacto_input .titulo_label{
+        font-size: 17px;
+        color: #d60058;
+    }
+
+    .contacto .contacto_pag .contacto_input .titulo_label:hover{
+        font-size: 20px;
+    }
+
+    .contacto .contacto_pag h1 {
+        font-size: 35px;
+        color: #d60058;
+    }
+
+    .contacto .contacto_pag .contacto_input select{
+        padding-left: 0px;
+        padding-right: 143px;
+
+    }
+
+    .contacto .contacto_pag .contacto_input label input{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    textarea {
+        width: 290px;
+        height: 200px;
+    }
+
     footer {
         display:inline-block !important;
         width: 100%;
