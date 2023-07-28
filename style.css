@@ -36,6 +36,9 @@ header{
     top: 0;
 }
 
+
+/* -----------------Seccion Header ----------------------*/
+
 .header .logo{
     cursor: pointer;
 }
@@ -87,6 +90,9 @@ header{
     display: none;
 }
 
+
+/* --------------------Seccion inicio ------------------------*/
+
 .inicio{
     margin-top: 10px;
 }
@@ -100,7 +106,8 @@ header{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px ;
-    font-size: 2rem;
+    font-size: 38px;
+    color: #d60058;
 }
 
 .inicio .inicio_pag .cucurucho {
@@ -149,6 +156,7 @@ header{
     font-weight: 500;
     text-align: left;
     margin: 15px;
+    color: #de2474;
 }
 
 .inicio .listas .col ul li {
@@ -160,10 +168,13 @@ header{
 }
 
 
+
+/* ----------------Seccion Contacto ----------------------*/
 .contacto .contacto_pag h1{
     text-align: center;
     padding: 30px;
-    font-size: 3.0rem;
+    font-size: 38px;
+    color: #d60058;
 }
 
 .contacto .contacto_pag .contacto_input {
@@ -192,6 +203,7 @@ header{
 
 .contacto .contacto_pag .contacto_input .titulo_label:hover{
     font-size: 1.2rem;
+    color: #de2474;
 }
 
 .contacto .contacto_pag .contacto_input label{
@@ -199,24 +211,17 @@ header{
     justify-content: center;
     padding: 5px;
     height: 50px;
-    
-    
 }
 
 .contacto .contacto_pag .contacto_input label input{
     border: 2px solid black;
     padding-right:50px;
     padding-left: 50px;
-    
 }
-
-
 
 .contacto .contacto_pag .contacto_input label textarea{
     display: flex;
     justify-content: center;
-    
-    
 }
 
 .contacto .contacto_pag .botones{
@@ -256,6 +261,11 @@ header{
     font-size: 1.2rem;
 }
 
+
+
+/* -------------------Seccion nosotros ----------------------*/
+
+
 .nosotros .historia {
     width: 100%;
     text-align: center;
@@ -285,7 +295,7 @@ header{
     margin-top: 2vw;
 }
 
-.nosotros .historia div p{
+.nosotros .historia div p,b{
     width: 100%;
     font-size: 1vw;
     line-height: 1.4vw;
@@ -300,6 +310,12 @@ header{
     width: 100%;
     display: none;
 }
+
+
+
+
+/* ---------------Seccion promociones --------------------*/
+
 
 .listado_promociones2{
     width: 90%;
@@ -386,34 +402,23 @@ header{
 }
 
 
-.footer1 {
-    background-color: rgb(212, 16, 107);
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 0;
-    color: white;
-    text-align: center;
-    padding: 50px 0;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    
+
+/* ----------Seccion Footer --------------- */
+
+footer * {
+    color: #fff;
 }
 
 footer{
     width: 100%;
     height: auto;
     background-color: #CE0058;
-    padding: 50px 0;
+    padding: 60px 0;
     display: flex !important;
     justify-content: center;
     align-items: center;
 }
 
-footer * {
-    color: #fff;
-}
 
 footer div {
     margin: 0 50px;
@@ -451,7 +456,7 @@ footer .redes img:hover{
     color: #de2474;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
     
     header{
         justify-content: space-between;
@@ -478,7 +483,7 @@ footer .redes img:hover{
     }
 
     .inicio .inicio_pag .sabores{
-        font-size: 2rem;
+        font-size: 30px;
     }
 
     .inicio .inicio_pag .helado_frutilla {
@@ -501,8 +506,7 @@ footer .redes img:hover{
     .inicio .listas {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        
+        grid-template-rows: auto; 
         
     }
 
@@ -526,24 +530,27 @@ footer .redes img:hover{
 
     }
 
-    .nosotros{
-        display: inline-block;
-        width: 100%;
-    }
 
-    .texto_historia{
-        width: 100%;
-        text-align: center;
-        margin-right: 0;
-    }
 
-    .nosotros .imagen_historia img{
-        width: 100%;
+    .nosotros .historia div p,b{
+        font-size: 15px;
         
     }
 
-    
+    .listado_promociones2 ul li {
+        width: 100%;
+        margin: 40px 0px;
+        max-width: 100%;
+    }
 
+    
+    .listado_promociones2 ul li .textos .fecha{
+        font-size: 25px;
+    }
+
+    .listado_promociones2 ul li .textos .desc {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 720px ) {
@@ -669,6 +676,13 @@ footer .redes img:hover{
         width: 100%;
     }
     
+    .listado_promociones2 ul li .textos .fecha{
+        font-size: 18px;
+    }
+
+    .listado_promociones2 ul li .textos .desc{
+        font-size: 14px;
+    }
 
     .contacto .contacto_pag .contacto_input .titulo_label{
         font-size: 17px;
