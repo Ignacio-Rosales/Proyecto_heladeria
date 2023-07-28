@@ -82,13 +82,10 @@ header{
 
 .inicio{
     margin-top: 10px;
-    margin-bottom: 50px;
 }
 
 .inicio .inicio_pag img{
     object-fit: cover;
-   
-   
 }
 
 
@@ -340,6 +337,7 @@ header{
     width: 100%;
 }
 
+
 .listado_promociones2 ul li .textos{
     width: 50%;
     text-align: left;
@@ -537,10 +535,82 @@ footer .redes img:hover{
         
     }
 
+    
+
+}
+
+@media (max-width: 720px ) {
+    
+    .inicio .listas{
+        margin: 80px;
+        display: grid;
+        text-align: center;
+        position: relative;
+    
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        
+    }
+
+    .inicio .inicio_pag .sabores {
+        font-size: 35px;
+        color: #d60058;
+    }    
+
+    .nosotros .historia{
+        display: inline-block;
+    }
+
+    .nosotros .historia .texto_historia{
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .nosotros .historia .texto_historia .head{
+        width: 220px;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .nosotros .historia .texto_historia .foot{
+        width: 70px;
+        margin: 0;
+        margin-top: 18px;
+    }
+    .nosotros .historia .texto_historia p,b{
+        font-size: 15px;
+        line-height: 22px;
+        width: 80%;
+    }
+
+    .nosotros .historia .desk {
+        display: none;
+    }
+    
+    .nosotros .historia img.mob {
+        display: block;
+    }
+
+    .listado_promociones2 ul{
+        flex-direction: column;
+    }
+
+    .listado_promociones2 ul li {
+        width: 100%;
+        margin: 40px 0px;
+        max-width: 100%;
+    }
+
+    .listado_promociones ul li .foto{
+        width: 100%;
+    }
+    
+
     footer {
         display:inline-block !important;
         width: 100%;
-        
+        position: relative;
+        bottom: 0;
     }
 
     footer div{
@@ -551,14 +621,28 @@ footer .redes img:hover{
         padding: 5px;
     }
 
-
-
-    .footer1{
-       position: absolute;
-       bottom: 0;
+    footer .logo{
+        width: 100px;
     }
 
-    
+    footer h6{
+        font-weight: 400;
+        font-size: 13px;
+        margin-bottom: 1px;
+        line-height: 17px;
+    }
+
+    footer .redes{
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer .redes img{
+        width: 28px;
+        margin: 0 5px;
+        transition: .5s;
+    }
 
 }
 
