@@ -312,8 +312,6 @@ header{
 }
 
 
-
-
 /* ---------------Seccion promociones --------------------*/
 
 
@@ -368,7 +366,6 @@ header{
     box-sizing: border-box;
 }
 
-
 .listado_promociones2 ul li .textos h3{
     color: #d60058;
     font-size: 28px;
@@ -401,8 +398,6 @@ header{
     color: #555;
 }
 
-
-
 /* ----------Seccion Footer --------------- */
 
 footer * {
@@ -411,7 +406,7 @@ footer * {
 
 footer{
     width: 100%;
-    height: auto;
+    margin-top: auto;
     background-color: #CE0058;
     padding: 60px 0;
     display: flex !important;
@@ -727,6 +722,7 @@ footer .redes img:hover{
         align-items: center;
         text-align: center;
         padding: 5px;
+        
     }
 
     footer .logo{
