@@ -39,11 +39,9 @@ header{
 
 /* -----------------Seccion Header ----------------------*/
 
-.header .logo{
-    cursor: pointer;
-}
 
 .header .logo img{
+    cursor: pointer;
     height: 60px;
     width: auto;
     margin: 20px;
