@@ -1,0 +1,48 @@
+footer {
+    *{
+        color: #fff;
+    }
+
+    width: 100%;
+    margin-top: auto;
+    background-color: #CE0058;
+    padding: 60px 0;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 120px;
+    }
+
+    h6{
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 2px;
+        line-height: 26px;
+    }
+
+    .redes{
+        width: auto;
+
+        a{
+            margin: 0;
+        }
+
+        img{
+            width: 32px;
+            margin: 0 5px;
+            transition: .5s;
+
+            &:hover{
+                color: #de2474;
+            }
+        }
+    }
+}

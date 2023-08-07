@@ -1,0 +1,76 @@
+.inicio{
+    margin-top: 10px;
+
+    .inicio_pag{
+
+        img{
+            object-fit: cover;
+        }
+
+        .sabores {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 50px ;
+            font-size: 38px;
+            color: #d60058;
+        }
+
+        .cucurucho{
+            position: absolute;
+            top: 105px;
+            left:-20px;
+            width: 20%;
+            max-height: 480px;
+            max-width: 320px;
+        }
+
+        .helado_frutilla {
+            position: absolute;
+            top: 100px;
+            right: 0;
+            width: 20%;
+            max-height: 350px;
+        }
+    }
+
+    .listas{
+        margin: 80px;
+        display: grid;
+        text-align: center;
+        position: relative;
+    
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        
+
+        .col {
+            width: 100%;
+            height: 350px;
+            margin-top:80px;
+            margin-left: 50px;
+
+            li{
+                text-decoration: none;
+            }
+
+            h6{
+                font-size: 30px;
+                line-height: 35px;
+                font-weight: 500;
+                text-align: left;
+                margin: 15px;
+                color: #de2474;
+            }
+
+            ul{
+                li {
+                    width: 100%;
+                    text-align: left;
+                    display: inline-block;
+                    font-size: 15px;
+                    line-height: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,322 @@
+@media (max-width: 1000px) {
+    header{
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+        padding: 0;
+    }
+
+    .header{
+
+        .nav-links{
+
+            a{
+                font-size: 17px;
+            }
+
+        }
+
+    }
+
+    .inicio {
+        .inicio_pag {
+            width: 100%;
+            height: 100%;
+
+
+            img{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+
+            .sabores{
+                font-size: 30px;
+            }
+
+            .helado_frutilla {
+                position: absolute;
+                top: 100px;
+                right: 0;
+                width: 20%;
+                max-height: 300px;
+            }
+
+            .cucurucho{
+                position: absolute;
+                top: 105px;
+                left:-20px;
+                width: 20%;
+                max-height: 350px;
+                max-width: 280px;
+            }
+        }
+
+        .listas {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto; 
+
+            .col{
+
+                height: 100%;
+                padding: 15px;
+                margin: 0 auto;
+                
+
+                h6{
+                    font-size: 25px;
+                    line-height: 25px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+                ul{
+                    li {
+                        text-align: center;
+                    }
+                }
+            }  
+        }
+    }
+    .nosotros{
+        .historia{
+            div{
+                p{
+                    font-size: 15px;
+                }
+                b{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .listado_promociones2{
+        ul{
+            li {
+                width: 100%;
+                margin: 40px 0px;
+                max-width: 100%;
+
+                .textos{
+                    .fecha{
+                        font-size: 25px;
+                    }
+                    .desc {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 720px ){
+    .header{
+        .logo{
+            img{
+                height: 40px;
+            }
+        }
+        .nav-links{
+
+            flex-direction: column;
+            align-items: end;
+
+            a {
+                font-size: 15px;
+                color: white;
+            }
+        }
+        .abrir_menu{
+            display: block;
+            border: 0;
+            font-size: 1.3rem;
+            background-color: transparent;
+            cursor: pointer;
+            color: #1c1c1c;
+        }
+        nav{
+            opacity: 0;
+            visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            gap: 1rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #1c1c1c;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+            .cerrar_menu{
+                display: block;
+                border: 0;
+                font-size: 1.3rem;
+                background-color: transparent;
+                color: #ffffff;
+            }
+
+            
+        }
+        .visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+    }
+
+    .inicio{
+        .listas{
+            margin: 80px;
+            display: grid;
+            text-align: center;
+            position: relative;
+        
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            
+        }
+        .inicio_pag{
+            .sabores {
+                position: relative;
+                z-index: 1;
+                font-size: 23px;
+                color: #d60058;
+            }    
+        }
+    }
+
+    .nosotros{
+        .historia{
+            display: inline-block;
+
+            .texto_historia{
+                width: 100%;
+                margin: 15px auto;
+
+                .head{
+                    width: 220px;
+                    margin-bottom: 30px;
+                    margin-top: 0;
+                }
+
+                .foot{
+                    width: 70px;
+                    margin: 0;
+                    margin-top: 18px;
+                }
+                p,b{
+                    font-size: 15px;
+                    line-height: 22px;
+                    width: 80%;
+                }
+            }
+            .desk {
+                display: none;
+            }
+
+            img.mob {
+                display: block;
+            }
+        }
+    }
+    .listado_promociones2 {
+        h2{
+            font-size: 24px;
+        }
+        ul{
+            flex-direction: column;
+
+            li {
+                width: 100%;
+                margin: 40px 0px;
+                max-width: 100%;
+
+                .foto{
+                    width: 100%;
+                }
+
+                .textos{
+                    .fecha{
+                        font-size: 18px;
+                    }
+                    .desc{
+                        font-size: 14px;
+                    }
+                }  
+            }
+        }
+    }
+    .contacto{
+        .contacto_pag{
+            .contacto_input{
+                .titulo_label{
+                    font-size: 17px;
+                    color: #d60058;
+
+                    &:hover{
+                        font-size: 20px;
+                    }
+                }
+                select{
+                    padding-left: 0px;
+                    padding-right: 143px;
+            
+                }
+
+                label{
+                    input{
+                        padding-left: 0px;
+                        padding-right: 0px;
+                    }
+                }
+            }
+            h1 {
+                font-size: 23px;
+                color: #d60058;
+            }
+        }
+    }
+    textarea {
+        width: 290px;
+        height: 200px;
+    }
+    footer {
+        display:inline-block !important;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5px;    
+        }
+        .logo{
+            width: 100px;
+        }
+        h6{
+            font-weight: 400;
+            font-size: 13px;
+            margin-bottom: 1px;
+            line-height: 17px;
+        }
+        .redes{
+            width: auto;
+            margin: 0;
+            padding: 0;
+
+            img{
+                width: 28px;
+                margin: 0 5px;
+                transition: .5s;
+            }
+        }
+    }
+    
+}

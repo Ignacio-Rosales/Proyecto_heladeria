@@ -1,0 +1,58 @@
+.nosotros {
+
+    .historia {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #f1f1f1;
+        
+
+        div{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+
+            .head{
+                width: 18vw;
+                margin-bottom: 2vw;
+                margin-top: 3vw;
+            }
+
+            .foot{
+                width: 6vw;
+                margin-top: 2vw;
+            }
+
+            p{
+                width: 100%;
+                font-size: 1vw;
+                line-height: 1.4vw;
+                width: 80%;
+            }
+            b{
+                width: 100%;
+                font-size: 1vw;
+                line-height: 1.4vw;
+                width: 80%;
+            }
+        }
+
+        img{
+
+            &.desk{
+                width: 50%;
+            }
+
+            &.mob{
+                width: 100%;
+                display: none;
+            }
+        }
+    }
+}
