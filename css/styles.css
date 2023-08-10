@@ -419,7 +419,7 @@ footer .redes img {
 }
 
 footer .redes img:hover {
-  color: #de2474;
+  color: #CE0058;
 }
 
 @media (max-width: 1000px) {
@@ -515,7 +515,7 @@ footer .redes img:hover {
     font-size: 1.3rem;
     background-color: transparent;
     cursor: pointer;
-    color: #1c1c1c;
+    color: #CE0058;
   }
   .header nav {
     opacity: 0;
@@ -527,8 +527,9 @@ footer .redes img:hover {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #1c1c1c;
+    background-color: #CE0058;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    height: 100vh;
   }
   .header nav .cerrar_menu {
     display: block;

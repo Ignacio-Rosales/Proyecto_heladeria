@@ -1,20 +1,25 @@
+@import "./estilo-footer";
+@import "./color-principal";
+
+
 footer {
+
     *{
         color: #fff;
     }
 
     width: 100%;
     margin-top: auto;
-    background-color: #CE0058;
+    background-color: $colorPrincipal;
     padding: 60px 0;
     display: flex !important;
     justify-content: center;
     align-items: center;
 
     div {
-        margin: 0 50px;
-        display: flex;
-        flex-direction: column;
+        margin: map-get($estilos, margen);
+        display: map-get($estilos, mostrar );
+        flex-direction: map-get($estilos, direccion_columna);
     }
 
     .logo{
@@ -41,7 +46,7 @@ footer {
             transition: .5s;
 
             &:hover{
-                color: #de2474;
+                color: $colorPrincipal;
             }
         }
     }

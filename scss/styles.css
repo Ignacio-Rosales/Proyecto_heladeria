@@ -364,7 +364,7 @@ footer .redes img {
   transition: 0.5s;
 }
 footer .redes img:hover {
-  color: #de2474;
+  color: #CE0058;
 }
 
 @media (max-width: 1000px) {
@@ -445,14 +445,15 @@ footer .redes img:hover {
 @media (max-width: 720px) {
   .header .logo img {
     height: 40px;
+    padding: 0 20px;
   }
   .header .nav-links {
     flex-direction: column;
     align-items: end;
   }
-  .header .nav-links a {
+  .header .nav-links li a {
     font-size: 15px;
-    color: white;
+    color: #ffffff;
   }
   .header .abrir_menu {
     display: block;
@@ -460,7 +461,8 @@ footer .redes img:hover {
     font-size: 1.3rem;
     background-color: transparent;
     cursor: pointer;
-    color: #1c1c1c;
+    color: #000000;
+    padding: 0 30px;
   }
   .header nav {
     opacity: 0;
@@ -472,8 +474,10 @@ footer .redes img:hover {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #1c1c1c;
+    background-color: #CE0058;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 40%;
   }
   .header nav .cerrar_menu {
     display: block;

@@ -119,17 +119,20 @@
         .logo{
             img{
                 height: 40px;
+                padding: 0 20px;
             }
         }
         .nav-links{
 
             flex-direction: column;
             align-items: end;
-
-            a {
-                font-size: 15px;
-                color: white;
+            li{
+                a {
+                    font-size: 15px;
+                    color: #ffffff;
+                }
             }
+            
         }
         .abrir_menu{
             display: block;
@@ -137,7 +140,8 @@
             font-size: 1.3rem;
             background-color: transparent;
             cursor: pointer;
-            color: #1c1c1c;
+            color: #000000;
+            padding: 0 30px;
         }
         nav{
             opacity: 0;
@@ -149,8 +153,11 @@
             position: absolute;
             top: 0;
             right: 0;
-            background-color: #1c1c1c;
+            background-color: #CE0058;
             box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+            height: 100vh;
+            width: 40%;
+
             .cerrar_menu{
                 display: block;
                 border: 0;
