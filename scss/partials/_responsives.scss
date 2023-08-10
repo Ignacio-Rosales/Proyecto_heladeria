@@ -189,6 +189,15 @@
             grid-template-columns: 1fr;
             grid-template-rows: auto;
             
+
+            .col{
+                
+                .h6_inicio{
+                    text-align: center;
+                    margin-left: 50px;
+                }
+            }
+
         }
         .inicio_pag{
 
@@ -197,6 +206,7 @@
                 z-index: 1;
                 font-size: 23px;
                 color: #d60058;
+                margin-left: 40px;
             }
             .sabores {
                 position: relative;
@@ -254,10 +264,16 @@
                 max-width: 100%;
 
                 .foto{
-                    width: 100%;
+                    width: 50%;
                 }
 
                 .textos{
+                    h3{
+                        font-size: 18px;
+                    }
+                    h6{
+                        font-size: 18px;
+                    }
                     .fecha{
                         font-size: 18px;
                     }
