@@ -77,6 +77,12 @@ header {
 .inicio .inicio_pag img {
   object-fit: cover;
 }
+.inicio .inicio_pag .sabores_inicio {
+  padding: 150px 0px 0px;
+  text-align: center;
+  font-size: 38px;
+  color: #d60058;
+}
 .inicio .inicio_pag .sabores {
   text-align: center;
   margin-top: 20px;
@@ -387,6 +393,9 @@ footer .redes img:hover {
     align-items: center;
     width: 100%;
   }
+  .inicio .inicio_pag .sabores_inicio {
+    font-size: 30px;
+  }
   .inicio .inicio_pag .sabores {
     font-size: 30px;
   }
@@ -497,6 +506,12 @@ footer .redes img:hover {
     position: relative;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+  .inicio .inicio_pag .sabores_inicio {
+    position: relative;
+    z-index: 1;
+    font-size: 23px;
+    color: #d60058;
   }
   .inicio .inicio_pag .sabores {
     position: relative;

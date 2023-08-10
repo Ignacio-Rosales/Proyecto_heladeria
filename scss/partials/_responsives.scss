@@ -31,6 +31,10 @@
                 width: 100%;
             }
 
+            .sabores_inicio{
+                font-size: 30px;
+            }
+
             .sabores{
                 font-size: 30px;
             }
@@ -187,6 +191,13 @@
             
         }
         .inicio_pag{
+
+            .sabores_inicio{
+                position: relative;
+                z-index: 1;
+                font-size: 23px;
+                color: #d60058;
+            }
             .sabores {
                 position: relative;
                 z-index: 1;
