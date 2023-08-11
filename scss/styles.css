@@ -219,8 +219,8 @@ header {
   line-height: 35px;
   font-weight: 500;
   text-align: left;
-  margin: 15px;
-  color: #de2474;
+  margin: 35px;
+  color: #d60058;
 }
 .inicio .listas .col ul li {
   width: 100%;
@@ -294,7 +294,7 @@ header {
 }
 .contacto .contacto_pag .contacto_input .titulo_label:hover {
   font-size: 1.2rem;
-  color: #de2474;
+  color: #d60058;
 }
 .contacto .contacto_pag .contacto_input label {
   display: flex;
@@ -321,7 +321,7 @@ header {
   transition: 0.5s;
 }
 .contacto .contacto_pag .contacto_input .btn_submit:hover {
-  background-color: rgb(212, 16, 107);
+  background-color: #d60058;
   font-size: 1.2rem;
 }
 .contacto .contacto_pag .contacto_input .btn_reset {
@@ -334,7 +334,7 @@ header {
   transition: 0.5s;
 }
 .contacto .contacto_pag .contacto_input .btn_reset:hover {
-  background-color: rgb(212, 16, 107);
+  background-color: #d60058;
   font-size: 1.2rem;
 }
 .contacto .contacto_pag .botones {
@@ -344,6 +344,34 @@ header {
   justify-content: center;
 }
 
+.nosotros .swirl-in-fwd {
+  -webkit-animation: swirl-in-fwd 3s ease-out infinite both;
+  animation: swirl-in-fwd 3s ease-out infinite both;
+}
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
 .nosotros .historia {
   width: 100%;
   text-align: center;
@@ -359,6 +387,7 @@ header {
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 .nosotros .historia div .head {
   width: 18vw;
@@ -366,7 +395,7 @@ header {
   margin-top: 3vw;
 }
 .nosotros .historia div .foot {
-  width: 6vw;
+  width: 4vw;
   margin-top: 2vw;
 }
 .nosotros .historia div p {
@@ -395,6 +424,34 @@ header {
   margin-bottom: 50px;
   text-align: center;
   margin-top: 40px;
+}
+.listado_promociones2 .slide-in-left {
+  -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 .listado_promociones2 .scale-in-bottom {
   -webkit-animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

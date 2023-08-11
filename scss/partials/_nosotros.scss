@@ -1,5 +1,39 @@
 .nosotros {
 
+
+
+    .swirl-in-fwd {
+        -webkit-animation: swirl-in-fwd 3s ease-out infinite both;
+                animation: swirl-in-fwd 3s ease-out infinite both;
+    }
+        
+                @-webkit-keyframes swirl-in-fwd {
+                    0% {
+                    -webkit-transform: rotate(-540deg) scale(0);
+                            transform: rotate(-540deg) scale(0);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-transform: rotate(0) scale(1);
+                            transform: rotate(0) scale(1);
+                    opacity: 1;
+                    }
+                }
+                @keyframes swirl-in-fwd {
+                    0% {
+                    -webkit-transform: rotate(-540deg) scale(0);
+                            transform: rotate(-540deg) scale(0);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-transform: rotate(0) scale(1);
+                            transform: rotate(0) scale(1);
+                    opacity: 1;
+                    }
+                }
+                
+
+
     .historia {
         width: 100%;
         text-align: center;
@@ -16,6 +50,7 @@
             text-align: center;
             justify-content: center;
             align-items: center;
+            margin-bottom: 50px;
 
 
             .head{
@@ -25,7 +60,7 @@
             }
 
             .foot{
-                width: 6vw;
+                width: 4vw;
                 margin-top: 2vw;
             }
 

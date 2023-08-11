@@ -1,3 +1,6 @@
+@import "./colores";
+
+
 .contacto{
     .contacto_pag{
 
@@ -43,7 +46,7 @@
             text-align: center;
             padding: 30px;
             font-size: 38px;
-            color: #d60058;
+            color: $colorTerciario;
         }
 
         .contacto_input {
@@ -69,7 +72,7 @@
 
                 &:hover{
                     font-size: 1.2rem;
-                    color: #de2474;
+                    color: $colorTerciario;
                 }
             }
 
@@ -101,7 +104,7 @@
                 transition: .5s;
 
                 &:hover{
-                    background-color: rgb(212, 16, 107);
+                    background-color: $colorTerciario;
                     font-size: 1.2rem;
                 }
             }
@@ -116,7 +119,7 @@
                 transition: .5s;
 
                 &:hover{
-                    background-color: rgb(212, 16, 107);
+                    background-color: $colorTerciario;
                     font-size: 1.2rem;
                 }
             }

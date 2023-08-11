@@ -1,3 +1,7 @@
+@import "./colores";
+
+
+
 @media (max-width: 1000px) {
     header{
         justify-content: space-between;
@@ -157,7 +161,7 @@
             position: absolute;
             top: 0;
             right: 0;
-            background-color: #CE0058;
+            background-color: $colorPrincipal;
             box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
             height: 100vh;
             width: 40%;
@@ -205,14 +209,14 @@
                 position: relative;
                 z-index: 1;
                 font-size: 23px;
-                color: #d60058;
+                color: $colorTerciario;
                 margin-left: 40px;
             }
             .sabores {
                 position: relative;
                 z-index: 1;
                 font-size: 23px;
-                color: #d60058;
+                color: $colorTerciario;
             }    
         }
     }
@@ -289,7 +293,7 @@
             .contacto_input{
                 .titulo_label{
                     font-size: 17px;
-                    color: #d60058;
+                    color: $colorTerciario;
 
                     &:hover{
                         font-size: 20px;
@@ -310,7 +314,7 @@
             }
             h1 {
                 font-size: 23px;
-                color: #d60058;
+                color: $colorTerciario;
             }
         }
     }

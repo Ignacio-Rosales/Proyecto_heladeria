@@ -1,3 +1,6 @@
+@import "./colores";
+
+
 .header {
   .logo {
     
@@ -104,7 +107,7 @@
 
         
         &:hover {
-            color: #d4106b;
+            color: $colorSecundario;
         }
       }
     }
