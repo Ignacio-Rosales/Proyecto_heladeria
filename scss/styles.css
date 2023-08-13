@@ -721,7 +721,7 @@ footer .redes img:hover {
     visibility: visible;
   }
   .inicio .listas {
-    margin: 80px;
+    margin: 50px;
     display: grid;
     text-align: center;
     position: relative;
