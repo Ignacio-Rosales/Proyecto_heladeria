@@ -1,0 +1,1 @@
+# Proyecto_heladeria Este proyecto se basa en una heladeria que elegi al azar por internet e intente replicar como se veria. Utilice principalmente HTML y en un principio Css y luego utilice Sass para estar mas organizado. Utilice imagenes propias de la misma pagina de la heladeria, y agregue algunas animaciones propias que la propia pagina no tiene.
