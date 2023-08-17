@@ -138,6 +138,10 @@
                 a {
                     font-size: 15px;
                     color: #ffffff;
+
+                    &:hover{
+                        color: #000;
+                    }
                 }
             }
             
@@ -197,7 +201,10 @@
                 
                 .h6_inicio{
                     text-align: center;
-                    margin-left: 50px;
+                    
+                }
+                ul{
+                    padding: 0;
                 }
             }
         }
@@ -208,7 +215,7 @@
                 z-index: 1;
                 font-size: 23px;
                 color: $colorTerciario;
-                margin-left: 40px;
+                
             }
             .sabores {
                 position: relative;
@@ -254,7 +261,7 @@
         }
     }
     .listado_promociones2 {
-        h2{
+        h1{
             font-size: 24px;
         }
         ul{
@@ -264,12 +271,19 @@
                 width: 100%;
                 margin: 40px 0px;
                 max-width: 100%;
+                display: inline-block;
+                
 
                 .foto{
                     width: 50%;
+                    margin: 0 auto;
+                    
                 }
 
                 .textos{
+                    margin: 0 auto;
+                    margin-left: 20%;
+
                     h3{
                         font-size: 18px;
                     }
